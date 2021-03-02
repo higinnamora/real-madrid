@@ -52,16 +52,16 @@ li {
   margin-bottom: 1rem;
 }
 .card a {
-  color: var(--white);
+  color: var(--second-color);
   text-decoration: none;
 }
 .card:hover {
   background-color: var(--white);
   border: 2px solid var(--second-color);
-}
-.card a:hover {
   color: var(--second-color);
+  transition: 1s;
 }
+
 .shop h2 {
   text-align: center;
   color: var(--second-color);
@@ -73,13 +73,14 @@ li {
   padding: 1rem;
   text-align: center;
   margin-bottom: 2rem;
+  width: 280px;
 }
 .footer {
   background-color: var(--primary-color);
   text-align: center;
 }
 .footer__social i, .footer__copy {
-  color: var(--white);
+  color: var(--second-color);
 }
 .footer span {
   font-size: 14px;
