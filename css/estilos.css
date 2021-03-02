@@ -62,3 +62,15 @@ body {
 .card a:hover {
   color: var(--second-color);
 }
+.shop h2 {
+  text-align: center;
+  color: var(--second-color);
+  margin-bottom: 2rem;
+}
+.shop__card {
+  background-color: #edeef0;
+  border-radius: 25px;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
