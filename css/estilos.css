@@ -52,14 +52,13 @@ li {
   margin-bottom: 1rem;
 }
 .card a {
-  color: var(--second-color);
+  color: var(--white);
   text-decoration: none;
 }
 .card:hover {
-  background-color: var(--white);
-  border: 2px solid var(--second-color);
-  color: var(--second-color);
-  transition: 1s;
+  background-color: var(--second-color);
+  border: 2px solid var(--white);
+  color: var(--white);
 }
 
 .shop h2 {
@@ -80,7 +79,7 @@ li {
   text-align: center;
 }
 .footer__social i, .footer__copy {
-  color: var(--second-color);
+  color: var(--white);
 }
 .footer span {
   font-size: 14px;
