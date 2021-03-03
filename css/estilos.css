@@ -16,6 +16,7 @@ html {
 body {
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
+  /*background-image: url('../images/background.png');*/
 }
 li {
   list-style: none;
@@ -50,6 +51,7 @@ li {
   text-align: center;
   border-radius: 25px;
   margin-bottom: 1rem;
+  margin: 1rem;
 }
 .card a {
   color: var(--white);
@@ -60,11 +62,20 @@ li {
   border: 2px solid var(--white);
   color: var(--white);
 }
-
-.shop h2 {
+.main__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
   text-align: center;
   color: var(--second-color);
   margin-bottom: 2rem;
+}
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .shop__card {
   background-color: #edeef0;
@@ -73,6 +84,8 @@ li {
   text-align: center;
   margin-bottom: 2rem;
   width: 280px;
+  margin: 1rem;
+  border: 1px solid gray;
 }
 .footer {
   background-color: var(--primary-color);
